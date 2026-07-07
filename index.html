@@ -572,7 +572,7 @@ function render() {
 
   // ── FUNIL ─────────────────────────────────────────────
   const totalImp = mRows.reduce((s, r) => s + parseInt(r['Impressions'] || 0), 0);
-  const totalClk = mRows.reduce((s, r) => s + parseInt(r['Inline Link Clicks'] || 0), 0);
+  const totalClk = mRows.reduce((s, r) => s + parseInt(r['Clicks'] || 0), 0);
   const totalLPV = mRows.reduce((s, r) => s + parseSpend(r['Action Landing Page View'] || 0), 0);
   const totalChk = mRows.reduce((s, r) => s + parseSpend(r['Action FB Pixel Initiate Checkout (Offsite Conversion)'] || 0), 0);
 
