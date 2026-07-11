@@ -758,7 +758,7 @@ function render() {
     statusMap[s] = (statusMap[s]||0) + 1;
   });
   const statusLabels = Object.keys(statusMap);
-  const statusColors = { paid:'#5aab7a', refunded:'#e05c4b', waiting_payment:'#c9a84c', refused:'#5a8fd4' };
+  const statusColors = { paid:'#5aab7a', refunded:'#e05c4b', waiting_payment:'#c9a84c', refused:'#ff6b2f' };
   mkChart('chartStatus', {
     type: 'doughnut',
     data: { labels:statusLabels.map(l=>({paid:'Pago',refunded:'Reembolsado',waiting_payment:'Aguardando',refused:'Recusado'}[l]||l)), datasets:[{ data:statusLabels.map(l=>statusMap[l]), backgroundColor:statusLabels.map(l=>statusColors[l]||'#888'), borderColor:'#1a1814', borderWidth:3 }] },
