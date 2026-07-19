@@ -7,7 +7,7 @@ Dashboard de performance para as Masterclass do Maestro Thiago Santos, desenvolv
 ## 🌐 URL
 
 ```
-https://suporteb16-collab.github.io/dashboard-masterclass-maestro/
+[https://suporteb16-collab.github.io/dashboard-masterclass-maestro/](https://suporteb16-collab.github.io/suporteb16-collab-dashboard-masterclass-maestro/)
 ```
 
 ---
